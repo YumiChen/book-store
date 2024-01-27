@@ -1,0 +1,22 @@
+export const bookCategories = {
+    1: "Fiction",
+    2: "Non-fiction",
+    3: "Science Fiction",
+    4: "Mystery",
+    5: "Thriller",
+    6: "Fantasy",
+    7: "Biography",
+    8: "Self-help",
+    9: "Romance",
+    10: "Historical Fiction",
+    11: "Horror",
+    12: "Young Adult",
+    13: "Poetry",
+    14: "Drama",
+    15: "Cooking",
+    16: "Travel",
+    17: "Art",
+    18: "Music",
+    19: "Sports",
+    20: "History"
+};
