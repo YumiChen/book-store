@@ -1,7 +1,7 @@
 'use client'
 
 import { AppStore, makeStore } from './store'
-import { BookType, setBooks, setError } from './features/books/booksSlice'
+import { BookType, setBooks, setError } from '@/lib/features/books/booksSlice'
 
 import { Provider } from 'react-redux'
 import { useRef } from 'react'
