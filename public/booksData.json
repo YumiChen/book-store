@@ -1,0 +1,98 @@
+[
+    { 
+        "id": "MBNNoiJPysgYsxSUutPDe",
+        "name": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 12.99,
+        "category": 1,
+        "description": "A novel about racial injustice and loss of innocence in the American South."
+    },
+    { 
+        "id": "aZoUa4Ot0INGN9D_JgPBt",
+        "name": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "price": 19.99,
+        "category": 2,
+        "description": "An exploration of the history of Homo sapiens, from the Stone Age to the present."
+    },
+    { 
+        "id": "Xd-gZWIqEbT3C7FXuYvEq",
+        "name": "The Martian",
+        "author": "Andy Weir",
+        "price": 10.49,
+        "category": 3,
+        "description": "A science fiction novel about an astronaut stranded on Mars and his struggle to survive."
+    },
+    { 
+        "id": "zzVWv7MmzbY6FK5JGdGqv",
+        "name": "Gone Girl",
+        "author": "Gillian Flynn",
+        "price": 8.99,
+        "category": 4,
+        "description": "A psychological thriller about a woman who disappears on her fifth wedding anniversary."
+    },
+    { 
+        "id": "_d_uvYF0J2sGd4Sn6WgLL",
+        "name": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "price": 14.99,
+        "category": 5,
+        "description": "A mystery-detective novel about a murder in the Louvre Museum and a symbologist's investigation."
+    },
+    { 
+        "id": "Hq72evmUl557DkwTEUWBl",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "price": 7.99,
+        "category": 6,
+        "description": "The first book in the Harry Potter series, following a young wizard's first year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    { 
+        "id": "mjuFtob3qC2MqnCb05shd",
+        "name": "Steve Jobs",
+        "author": "Walter Isaacson",
+        "price": 16.99,
+        "category": 7,
+        "description": "A biography of Steve Jobs, co-founder of Apple Inc., based on more than forty interviews with Jobs."
+    },
+    { 
+        "id": "IM4vn-FRv6vs-hinP27z8",
+        "name": "The 7 Habits of Highly Effective People",
+        "author": "Stephen R. Covey",
+        "price": 11.99,
+        "category": 8,
+        "description": "A self-help book offering a holistic approach to personal and professional effectiveness."
+    },
+    { 
+        "id": "MA-yT4RfZAdedOOz9Vs44",
+        "name": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": 9.99,
+        "category": 9,
+        "description": "A romantic novel following the emotional development of Elizabeth Bennet, one of the five Bennet sisters."
+    },
+    { 
+        "id": "y0Qdt0ATk4OIKV08Wv00S",
+        "name": "The Book Thief",
+        "author": "Markus Zusak",
+        "price": 13.49,
+        "category": 10,
+        "description": "A historical novel set in Nazi Germany, narrated by Death and following a young girl's experiences with books."
+    },
+    { 
+        "id": "RKG8B5hLbrGdHsy5GYZtu",
+        "name": "1984",
+        "author": "George Orwell",
+        "price": 10.99,
+        "category": 11,
+        "description": "A dystopian novel set in a totalitarian regime, where the government monitors and controls every aspect of life."
+    },
+    { 
+        "id": "fns6Np2sJpNktS1n5JhZz",
+        "name": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "price": 8.49,
+        "category": 12,
+        "description": "A novel about the struggles of adolescence and the search for identity."
+    }
+]
