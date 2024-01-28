@@ -13,7 +13,8 @@ export const metadata: Metadata = {
 };
 
 const fetchBooks = async () => {
-  const response = await fetch('http://localhost:3000/booksData.json');
+  const url = `http://${process.env.NODE_ENV === 'production' ? 'book-store-vercel.vercel.app' : 'localhost:3000'}`;
+  const response = await fetch(`${url}/booksData.json`);
   if (!response.ok) {
     return { books: [], error: 'Error on getting book list'};
   }
