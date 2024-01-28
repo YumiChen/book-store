@@ -19,8 +19,8 @@ export default function Book({ id, name, price, category, description } : BookTy
 
   return (
     <div className="w-full">
-      <div className="card lg:card-side shadow-xl glass cursor-pointer" onClick={openEditBookPopup}>
-        <div className="card-body min-h-[212px]">
+      <div className="card lg:card-side shadow-xl glass cursor-pointer hover:border hover:border-solid" onClick={openEditBookPopup}>
+        <div className="card-body min-h-[212px] w-full">
           <h3 className="card-title ellipsis-2">{name}</h3>
               <p>{`$${price} CAD`}</p>
               <p className="ellipsis-1">{bookCategories[category]}</p>
