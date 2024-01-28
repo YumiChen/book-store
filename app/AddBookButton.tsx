@@ -1,7 +1,15 @@
+import { setEditingBook } from "@/lib/features/books/editingBookSlice";
+import { useAppDispatch } from "@/lib/hook";
+
 export default function AddBookButton() {
+  const dispatch = useAppDispatch();
+  const openAddBookPopup = () => {
+    dispatch(setEditingBook());
+    (document.querySelector("#add_book_modal") as HTMLDialogElement)?.showModal();
+  };
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
-        <button>Add book</button>
+    <div>
+        <button className="btn btn-accent" onClick={openAddBookPopup}>Add New book</button>
     </div>
   );
 }
